@@ -2,39 +2,40 @@
 body{
  margin: -5px ;
  margin-top: -30px;
+ 
+ 
    
 }
 
 
 
 header {
-   height: 10vh;
-    background-color: burlywood;
-    border-bottom: 10px solid wheat;
+   height: 15vh;
+    background-color: #14213D;
+    border-bottom: 10px solid black;
     padding: 0px 30px 0px 30px;
+    flex: flex;
     
 }
 
+
 h1{
-    font-size:20px;
-    color: slateblue;
-    margin-top: 30px;
+    font-size: 20px;
+    color: #FCA311 ;
+    text-shadow: 50%;
     font-size: 50px;
     text-align:left;
     margin-left: 30px;
+    margin-bottom: 5px;
     padding-top: 15px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 ul{
     text-align: right;
-     color: black;
-    
+     color: #e5e5e5;   
 }
 
-nav{
-color: black;
-}
 
 li{
     display: inline;
@@ -50,21 +51,72 @@ main{
     margin-right: 150px;
     padding: 15px;
     font-size: 15px;
-    background-color: saddlebrown;
+    
 }
 
 .container{
     margin: 150px;
 }
 
-
-
-.nav{
-    justify-content: space-between;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+.header{
+    height: 10vh;
 }
+
+
+
+.nav.position{
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
+    align-items: flex-start;
+    position: top;
+  
+}
+
+.section-content{
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;}
+
+.smaller-picture{
+    flex-basis: 50%;
+    border: 1px solid green;
+    margin: 10px;
+  }
+
+  .smaller-picture2{
+      align-items: flex-end ;
+  }
+
+  .section-title{
+    flex-basis: 20%;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.headings-2{
+    font-size: 300%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    padding: 10px;
+    color: #FCA311;
+    margin: 15px;
+    display: inline;
+    
+}
+
+.profile{
+  ;
+}
+
+.footer{
+    text-align: center;
+    background-color: #14213D;
+    display: inline;
+    object-fit: contain;
+}
+
 
 #list-item-1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -79,4 +131,63 @@ main{
 #list-item-3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
+}
+
+#first-picture{
+    flex-basis: 100%;
+    border: 1px solid violet;
+    height: 60vh;
+}
+
+#aboutMe {
+    border: 0px solid rgb(31, 45, 90);
+
+    background-color: #e5e5e5 ;
+    color: #FCA311;
+    border-left: 10px solid #FCA311;
+}
+
+#work{
+    background-color: #e5e5e5;
+    border-left: 10px solid #FCA311;
+
+
+}
+
+#contact{
+    height: 20vh;
+    border-left: 10px solid #FCA311;
+    background-color: #e5e5e5;
+    object-fit: contain;
+
+
+}
+
+#aboutMe, #work, #contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+   
+.headings{
+    font-size: 350%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    padding: 10px;
+    color: #FCA311;
+    
+}
+
+#img{
+    max-width: 30%;
+    max-height: 25%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+#nav-links{
+    font-size: 25px;
+    margin-top: 0px;
 }
